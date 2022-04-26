@@ -52,8 +52,8 @@ public class Account {
     public void showAccount() {
         System.out.println("name: " + name);
         System.out.println("surname: " + surname);
-        System.out.println("accNumber" + accNumber);
-        System.out.println("balance" + balance);
+        System.out.println("accNumber:" + accNumber);
+        System.out.println("balance:" + balance);
 
 
     }
