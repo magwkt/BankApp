@@ -79,6 +79,19 @@ public class Account {
             System.out.println("your balance is less than" + amount);
         }
     }
+
+    public boolean search(String accountNumber) {
+        if(accountNumber.equals(accountNumber)) {
+            return true;
+        }
+        else
+        {
+            return false;
+
+        }
+
+
+    }
 }
 
 
