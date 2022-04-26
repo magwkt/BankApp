@@ -49,6 +49,23 @@ public class Account {
     }
 
 
+    public void showAccount() {
+        System.out.println("name: " + name);
+        System.out.println("surname: " + surname);
+        System.out.println("accNumber" + accNumber);
+        System.out.println("balance" + balance);
+
+
+    }
+
+    public void depositMoney() {
+        System.out.println("How much money you want to deposit?");
+        long amount = scanner.nextLong();
+        balance = balance + amount;
+        System.out.println("Your current balance is:" + balance);
+
+
+    }
 }
 
 
